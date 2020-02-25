@@ -224,3 +224,63 @@ header .container{
     line-height: 32px;
     color: #fff;
 }
+
+/* Noticias */
+
+.noticias{
+    width: 100vw;
+    min-height: 790px;
+}
+
+.lista_noticias .primeiraColuna ,.lista_noticias .segundaColuna{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista_noticias li article{
+    height: 240px;
+}
+
+.lista_noticias .primeiraColuna li:nth-child(1) article{
+    background: url("../img/home/noticias/aniversario_tratada_mobile.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.lista_noticias .primeiraColuna li:nth-child(2){
+    display: none;
+}
+
+.lista_noticias .primeiraColuna li:nth-child(2) article{
+    background: url("../img/home/noticias/drink_tratada.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.lista_noticias .primeiraColuna li:nth-child(3) article{
+    background: url("../img/home/noticias/casamento_tratada_mobile.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.lista_noticias .segundaColuna{
+    display: none;
+}
+
+.lista_noticias .segundaColuna article{
+    background: url("../img/home/noticias/dj_tratada.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.noticias .lista_noticias li a{
+    width: 100%;
+    height: 100%;
+}
+
+.noticias .titulo_noticia{
+    width: 220px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+}
