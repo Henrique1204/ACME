@@ -16,6 +16,7 @@ header, section, footer{
 }
 
 .titulo_intro{
+    margin: auto;
     font-family: 'Merriweather Sans', 'sans-serif';
     font-style: normal;
     font-weight: bold;
