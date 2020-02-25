@@ -324,3 +324,47 @@ header .container{
 .dicas ul .card_dica:nth-child(2), .dicas ul .card_dica:nth-child(3){
     display: none;
 }
+
+/* footer */
+
+footer{
+    width: 100vw;
+    height: 532px;
+    color: #7CA69B;
+    background-color: #30403C;
+}
+
+footer>.container{
+    height: 100%;
+}
+
+footer h3{
+    font-weight: bold;
+    text-align: center;
+}
+
+footer h3:after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    margin: 5px auto 10px;
+    background-color: currentColor;
+    display: block;
+}
+
+footer .footer_dados li{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+footer .footer_sociais{
+    width: 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p{
+    font-size: 14px;
+    font-weight: bold;
+}
