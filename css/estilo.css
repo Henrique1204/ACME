@@ -15,6 +15,17 @@ header, section, footer{
     padding: 45px 0;
 }
 
+.titulo_intro{
+    font-family: 'Merriweather Sans', 'sans-serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+}
+
 
 .titulo{
     font-family: 'Merriweather Sans', 'sans-serif';
@@ -67,6 +78,7 @@ header, section, footer{
     background-color: #D41C0F;
     outline: none;
     cursor: pointer;
+    display: inline-block;
 }
 
 .btn:focus, .btn:hover{
@@ -133,6 +145,8 @@ header .container{
     display: none;
 }
 
+/* HOME */
+
 /* Introdução home */
 
 .intro_home{
@@ -142,17 +156,6 @@ header .container{
     margin-top: 100px;
     background: url('../img/home/intro/bg_intro_tratada_mobile.jpg') center no-repeat;
     background-size: cover;
-}
-
-.titulo_intro{
-    font-family: 'Merriweather Sans', 'sans-serif';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 32px;
-    color: #fff;
 }
 
 /* Apresentação */

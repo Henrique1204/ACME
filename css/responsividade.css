@@ -1,5 +1,5 @@
 /* Tamanho de Tablet */
-@media  only screen and (min-width: 760px){
+@media  only screen and (min-width: 761px){
     
     /* Apresentação */
     
@@ -63,6 +63,26 @@
     .dicas ul .card_dica:nth-child(2){
         display: inline-block;
     }
+
+    /* Listas de eventos */
+
+    .casamentos .container, .aniversarios .container, .outras_festas .container{
+        justify-content: center;
+    }
+    
+    .casamentos .grid-6, .aniversarios .grid-6, .outras_festas .grid-6{
+        width: 300px;
+    }
+
+    .lista_eventos li:nth-child(3), .lista_eventos li:nth-child(4){
+        display: inline-block;
+    }
+
+    /* Nossos planos */
+
+    .nossos_planos .container{
+        flex-direction: column;
+    }
     
     /* Footer */
     
@@ -73,7 +93,7 @@
 
 /* Tamanho Desktop */
 
-@media  only screen and (min-width: 1170px){
+@media  only screen and (min-width: 1171px){
     
     /* Gerais */
 
@@ -146,6 +166,10 @@
     
     .menu_links a:focus, .menu_links a:hover{
         transition: 1s;
+        color: #FF3300;
+    }
+
+    .menu_links .link_ativo{
         color: #FF3300;
     }
     

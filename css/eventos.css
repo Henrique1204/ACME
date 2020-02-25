@@ -1,0 +1,135 @@
+/* EVENTOS */
+
+/* Intro eventos */
+
+.intro_eventos{
+    width: 100%;
+    height: 226px;
+    padding: 45px;
+    margin-top: 100px;
+    background: url("../img/eventos/intro/bg_intro_tratada_mobile.jpg") center no-repeat;
+    background-size: cover;
+}
+
+/* Listas de eventos */
+
+.casamentos, .aniversarios, .outras_festas{
+    max-width: 100vw;
+    min-height: 705px;
+}
+
+.aniversarios{
+    background-color: #DEE8E7;
+}
+
+.lista_eventos li img{
+    width: 100%;
+}
+
+.lista_eventos li:nth-child(3), .lista_eventos li:nth-child(4){
+    display: none;
+}
+
+.data{
+    font-size: 16px;
+    line-height: 22px;
+    color: #466A61;
+    margin-bottom: 10px;
+}
+
+/* Nossos planos */
+
+.nossos_planos{
+    max-width: 100vw;
+    height: 1055px;
+    background-color: #DEE8E7;
+}
+
+.nossos_planos>.container{
+    height: 100%;
+}
+
+.card_plano{
+    width: 300px;
+    height: 276px;
+    margin-top: 30px;
+    background: linear-gradient(138.84deg, #0E9C78 0%, #33FFCC 100%);
+}
+
+.card_plano a{
+    width: 100%;
+    height: 100%;
+    padding: 30px 0;
+    justify-content: space-between;
+    color: #30403C;
+}
+
+.card_plano h3{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 32px;
+}
+
+.card_plano h3:after{
+    content: "";
+    width: 180px;
+    height: 4px;
+    margin: 0 auto;
+    background-color: currentColor;
+    display: block;
+}
+
+.card_plano p{
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.card_plano:nth-child(3) a{
+    justify-content: center; 
+}
+
+.card_plano:nth-child(3) a p{
+    width: 270px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+.lista_recursos li{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.lista_recursos li::before{
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 0 15px 1.5px;
+    background-color: currentColor;
+    display: inline-block;
+}
+
+/* Contrate */
+
+.contrate{
+    width: 100vw;
+    height: 230px;
+    background: url("../img/eventos/contrate/bg_contrate_tratada_mobile.png") center no-repeat;
+    background-size: cover;
+}
+
+.contrate .container div:nth-child(1){
+    display: none;
+}
+
+.contrate .container div:nth-child(2){
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
