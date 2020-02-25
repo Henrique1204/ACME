@@ -28,7 +28,7 @@
     }
     
     /* Noticia */
-
+    
     .noticias>.container{
         flex-direction: column;
     }
@@ -51,11 +51,11 @@
         justify-content: space-between;
         align-items: center;
     }
-
+    
     .dicas>.container{
         flex-direction: column;
     }
-
+    
     .dicas .grid-4{
         width: 300px;
     }
@@ -63,9 +63,10 @@
     .dicas ul .card_dica:nth-child(2){
         display: inline-block;
     }
-
+    
+    /* Eventos */
     /* Listas de eventos */
-
+    
     .casamentos .container, .aniversarios .container, .outras_festas .container{
         justify-content: center;
     }
@@ -73,18 +74,18 @@
     .casamentos .grid-6, .aniversarios .grid-6, .outras_festas .grid-6{
         width: 300px;
     }
-
+    
     .lista_eventos li:nth-child(3), .lista_eventos li:nth-child(4){
         display: inline-block;
     }
-
+    
     /* Nossos planos */
-
+    
     .nossos_planos .container{
         flex-direction: column;
     }
     
-    /* Footer */
+    /* Rodapé */
     
     footer> .container{
         flex-direction: column;
@@ -96,12 +97,12 @@
 @media  only screen and (min-width: 1171px){
     
     /* Gerais */
-
+    
     .intro_home, section{
         padding: 90px 0;
     }
-
-
+    
+    
     .titulo{
         font-size: 36px;
         line-height: 48px;
@@ -128,7 +129,7 @@
         display: none;
     }
     
-    /* Cabeçoalho */
+    /* Cabeçalho */
     
     header .container{
         width: 1170px;
@@ -168,7 +169,7 @@
         transition: 1s;
         color: #FF3300;
     }
-
+    
     .menu_links .link_ativo{
         color: #FF3300;
     }
@@ -232,7 +233,7 @@
     }
     
     /* Dicas */
-
+    
     .dicas .card_dica{
         margin-top: 60px;
         background: url("../img/home/dicas/bg_dica.jpg") center no-repeat;
@@ -242,19 +243,86 @@
     .dicas ul .card_dica:nth-child(3){
         display: inline-block;
     }
-
+    
     .dicas .grid-4{
         width: 370px;
         height: 445px;
     }
+    
+    /* Eventos */
 
+    /* Intro Eventos */
+
+    .intro_eventos{
+        height: 312px;
+        background: url("../img/eventos/intro/bg_intro_tratada.jpg") center no-repeat;
+        background-size: cover;
+    }
+
+    .intro_eventos .titulo_intro{
+        width: 640px;
+    }
+
+    /* Lista de eventos*/
+    
+    .casamentos .grid-6, .aniversarios .grid-6, .outras_festas .grid-6{
+        width: 570px;
+    }
+    
+    .casamentos img, .aniversarios img, .outras_festas img{
+        height: 260px;
+    }
+    
+    /* Nossos planos */
+    
+    .nossos_planos{
+        height: 540px;
+    }
+    
+    .nossos_planos .container{
+        flex-direction: row;
+    }
+    
+    .card_plano{
+        background: url("../img/eventos/planos/bg_plano.jpg") center no-repeat;
+        background-size: cover;
+    }
+    
+    /* Contrate */
+    
+    .contrate{
+        height: 410px;
+        background: url("../img/eventos/contrate/bg_contrate_tratada.jpg") center no-repeat;
+        background-size: cover;
+    }
+    
+    .contrate .container div:nth-child(1){
+        display: flex;
+        align-items: center;
+        color: #fff;
+    }
+    
+    .contrate .container div:nth-child(1) p{
+        width: 700px;
+        margin: 30px auto;
+        font-size: 20px;
+        text-align: center;
+        line-height: 32px;
+    }
+    
+    .contrate .container div:nth-child(2){
+        height: auto;
+        width: 370px;
+        flex-direction: row;
+    }
+    
     /* Rodapé */
-
+    
     footer{
         padding: 0;
         height: 185px;
     }
-
+    
     footer .container{
         flex-direction: row;
     }
