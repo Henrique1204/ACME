@@ -1,0 +1,129 @@
+/* Gerais */
+
+body{
+    margin: 0;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 24px;
+}
+
+header, section, footer{
+    padding: 45px 0;
+}
+
+
+.titulo{
+    font-family: 'Merriweather Sans', 'sans-serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+    color: #30403C;
+}
+
+
+.sub_titulo{
+    font-family: 'Merriweather Sans', 'sans-serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+    color: #f30;
+}
+
+.sub_titulo:before{
+    content: '';
+    width: 30px;
+    height: 15px;
+    margin-right: 15px;
+    background-color: currentColor;
+    display: inline-block;
+}
+
+.texto_titulo{
+    width: 270px;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: #466A61;
+}
+
+.btn{
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background-color: #D41C0F;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:focus, .btn:hover{
+    transition: 0.2s;
+    background-color: #FF5100;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn_slide{
+    width: 15px;
+    height: 15px;
+    margin: 0 7.5px;
+    border: none;
+    border-radius: 50%;
+    background-color:#80FFE1;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn_slide_ativo{
+    background-color:#D41C0F;
+}
+
+/* Cabeçalho */
+
+header{
+    width: 100vw;
+    height: 100px;
+    background-color: #26C79C;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+header .container{
+    width: 100%;
+    padding: 30px;
+    flex-direction: row;
+}
+
+.marca{
+    width: 170px;
+    height: 40px;
+}
+
+.menu_sanduiche{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.barrinha{
+    width: 32px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #B81004;
+}
+
+.menu_links{
+    display: none;
+}
