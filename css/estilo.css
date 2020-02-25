@@ -284,3 +284,43 @@ header .container{
     line-height: 32px;
     color: #fff;
 }
+
+/* Dicas */
+
+.dicas{
+    width: 100vw;
+    min-height: 852px;
+    background: #DEE8E7;
+}
+
+.dicas .card_dica{
+    height: 528px;
+    padding: 30px;
+    color: #fff;
+    background: url("../img/home/dicas/bg_dica_mobile.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.dicas .card_dica h3{
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.dicas .card_dica h3:after{
+    content: "";
+    width: 200px;
+    height: 3px;
+    margin:  10px auto 30px;
+    background-color: currentColor;
+    display: block;
+}
+
+.dicas .card_dica p{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.dicas ul .card_dica:nth-child(2), .dicas ul .card_dica:nth-child(3){
+    display: none;
+}
