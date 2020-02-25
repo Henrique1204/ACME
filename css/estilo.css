@@ -149,3 +149,42 @@ header .container{
     line-height: 32px;
     color: #fff;
 }
+
+/* Apresentação */
+
+.apresentacao{
+    min-width: 100vw;
+    min-height: 1600px;
+}
+
+.apresentacao ul li{
+    margin-top: 60px;
+}
+
+.apresentacao .item_apresentacao{
+    height: 470px;
+}
+
+.apresentacao .item_apresentacao h3{
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    line-height: 48px;
+    color: #30403C;
+}
+
+.apresentacao .item_apresentacao h3::after{
+    content: '';
+    width: 150px;
+    height: 4px;
+    margin: auto;
+    background-color: currentColor;
+    display: block;
+}
+
+.apresentacao .icon_container{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background: rgba(173, 255, 250, 0.5);
+}
