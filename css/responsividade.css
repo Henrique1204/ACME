@@ -1,0 +1,46 @@
+/* Tamanho de Tablet */
+@media  only screen and (min-width: 760px){
+
+    /* Posts Recentes */
+
+    .posts_recentes{
+        height: 600px;
+    }
+
+    .posts_recentes .container{
+        justify-content: space-around;
+    }
+
+    .lista_posts .grid-3{
+		width: 300px;
+		margin: 30px auto;
+    }
+    
+    /* Noticia */
+
+    .lista_noticias .primeiraColuna li:nth-child(1) article{
+        background: url("../img/home/noticias/aniversario_tratada.jpg") center no-repeat;
+        background-size: cover;
+    }
+    
+    .lista_noticias .primeiraColuna li:nth-child(3) article{
+        background: url("../img/home/noticias/casamento_tratada.jpg") center no-repeat;
+        background-size: cover;
+    }
+
+    /* Dicas */
+
+    .dicas .grid-4{
+        width: 300px;
+    }
+
+    .dicas ul .card_dica:nth-child(2){
+        display: inline-block;
+    }
+
+    /* Footer */
+
+    footer> .container{
+        flex-direction: column;
+    }
+}

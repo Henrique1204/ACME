@@ -33,3 +33,18 @@
     width: 300px;
     margin: 30px auto;
 }
+
+/* Tamanho de Tablet */
+@media  only screen and (min-width: 760px){
+
+	.container{
+		width: 760px;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12{
+		width: 600px;
+		margin: 30px auto;
+	}
+}
