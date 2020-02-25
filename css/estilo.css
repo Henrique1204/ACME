@@ -188,3 +188,39 @@ header .container{
     border-radius: 50%;
     background: rgba(173, 255, 250, 0.5);
 }
+
+/* Post Recentes */
+
+.posts_recentes{
+    width: 100vw;
+    height: 825px;
+    background-color: #DEE8E7;
+}
+
+.posts_recentes .lista_posts li article{
+    height: 300px;
+    background: url("../img/home/posts/tumb_tratada.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.posts_recentes .lista_posts li{
+    display: none;
+}
+
+.posts_recentes .lista_posts li:nth-child(1),.posts_recentes .lista_posts li:nth-child(2){
+    display: inline-block;
+}
+
+.posts_recentes .lista_posts li a{
+    width: 100%;
+    height: 100%;
+}
+
+.posts_recentes .titulo_post{
+    width: 200px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+}
