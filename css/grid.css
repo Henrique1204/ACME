@@ -35,7 +35,7 @@
 }
 
 /* Tamanho de Tablet */
-@media  only screen and (min-width: 761px){
+@media  only screen and (min-width: 791px){
 
 	.container{
 		width: 760px;
@@ -50,7 +50,7 @@
 }
 
 /* Tamanho Desktop */
-@media 	only screen and (min-width: 1171px){
+@media 	only screen and (min-width: 1201px){
 
 	.container{
 		width: 1170px;

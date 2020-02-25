@@ -1,5 +1,46 @@
 /* Tamanho de Tablet */
-@media  only screen and (min-width: 761px){
+@media  only screen and (min-width: 791px){
+    
+    /* Home */
+    /* Cabeçalho*/
+    
+    .menu_sanduiche{
+        display: none;
+    }
+    
+    .menu_links{
+        display: inline-block;
+    }
+    
+    .menu_links ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .menu_links ul li{
+        margin: 0 7.5px;
+    }
+    
+    .menu_links a{
+        padding: 5px;
+        font-family: 'Open Sans', 'sans-serif';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        line-height: 24px;
+        color: #fff;
+    }
+    
+    .menu_links a:focus, .menu_links a:hover{
+        transition: 1s;
+        color: #FF3300;
+    }
+    
+    .menu_links .link_ativo{
+        color: #FF3300;
+    }
     
     /* Apresentação */
     
@@ -84,19 +125,19 @@
     .nossos_planos .container{
         flex-direction: column;
     }
-
+    
     /* Local */
     /* Sessão exbição */
-
+    
     .locais{
         min-height: 1765px;
     }
-
+    
     .locais .container{
         width: 760px;
         flex-direction: column;
     }
-
+    
     .locais .container img{
         width: 600px;
         height: 400px;
@@ -111,7 +152,7 @@
 
 /* Tamanho Desktop */
 
-@media  only screen and (min-width: 1171px){
+@media  only screen and (min-width: 1201px){
     
     /* Gerais */
     
@@ -123,7 +164,7 @@
     .titulo_intro{
         letter-spacing: 0.08em;
     }
-
+    
     .titulo{
         font-size: 36px;
         line-height: 48px;
@@ -154,44 +195,6 @@
     header .container{
         width: 1170px;
         padding: 0 30px ;
-    }
-    
-    .menu_sanduiche{
-        display: none;
-    }
-    
-    .menu_links{
-        display: inline-block;
-    }
-    
-    .menu_links ul{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    
-    .menu_links ul li{
-        margin: 0 7.5px;
-    }
-    
-    .menu_links a{
-        padding: 5px;
-        font-family: 'Open Sans', 'sans-serif';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        text-align: center;
-        line-height: 24px;
-        color: #fff;
-    }
-    
-    .menu_links a:focus, .menu_links a:hover{
-        transition: 1s;
-        color: #FF3300;
-    }
-    
-    .menu_links .link_ativo{
-        color: #FF3300;
     }
     
     /* Intro home */
@@ -270,19 +273,19 @@
     }
     
     /* Eventos */
-
+    
     /* Intro Eventos */
-
+    
     .intro_eventos{
         height: 312px;
         background: url("../img/eventos/intro/bg_intro_tratada.jpg") center no-repeat;
         background-size: cover;
     }
-
+    
     .intro_eventos .titulo_intro{
         width: 640px;
     }
-
+    
     /* Lista de eventos*/
     
     .casamentos .grid-6, .aniversarios .grid-6, .outras_festas .grid-6{
@@ -335,47 +338,54 @@
         width: 370px;
         flex-direction: row;
     }
-
-     /* Local */
+    
+    /* Local */
     /* Sessão exbição */
-
+    
+    .intro_locais{
+        height: 312px;
+        background: url("../img/locais/intro/bg_intro_tratada.jpg") center no-repeat;
+        background-size: cover;
+    }
+    
     .locais{
         min-height: 1040px;
     }
-
+    
     .locais>.container{
         width: 1170px;
         flex-direction: column;
         align-items: flex-start;
     }
-
+    
     .locais>.container .container{
         height: 952px;
         width: 1170px;
         padding: 30px;
         flex-direction: row;
     }
-
+    
     .locais .container img:nth-child(1){
         width: 1050px;
         height: 400px;
     }
-
+    
     .locais .container img:nth-child(2){
         width: 410px;
         height: 272px;
     }
- 
+    
     .locais .container div:nth-child(3){
         margin-left: 130px;
+        margin-right: 70px;
     }
-
+    
     .locais .container div{
         margin-top: 30px;
         height: 272px;
         justify-content: flex-start;
     }
-
+    
     .locais .container .btn, .nav_slide{
         margin: 30px auto 0;
     }
