@@ -84,6 +84,23 @@
     .nossos_planos .container{
         flex-direction: column;
     }
+
+    /* Local */
+    /* Sessão exbição */
+
+    .locais{
+        min-height: 1765px;
+    }
+
+    .locais .container{
+        width: 760px;
+        flex-direction: column;
+    }
+
+    .locais .container img{
+        width: 600px;
+        height: 400px;
+    }
     
     /* Rodapé */
     
@@ -317,6 +334,50 @@
         height: auto;
         width: 370px;
         flex-direction: row;
+    }
+
+     /* Local */
+    /* Sessão exbição */
+
+    .locais{
+        min-height: 1040px;
+    }
+
+    .locais>.container{
+        width: 1170px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .locais>.container .container{
+        height: 952px;
+        width: 1170px;
+        padding: 30px;
+        flex-direction: row;
+    }
+
+    .locais .container img:nth-child(1){
+        width: 1050px;
+        height: 400px;
+    }
+
+    .locais .container img:nth-child(2){
+        width: 410px;
+        height: 272px;
+    }
+ 
+    .locais .container div:nth-child(3){
+        margin-left: 130px;
+    }
+
+    .locais .container div{
+        margin-top: 30px;
+        height: 272px;
+        justify-content: flex-start;
+    }
+
+    .locais .container .btn, .nav_slide{
+        margin: 30px auto 0;
     }
     
     /* Rodapé */

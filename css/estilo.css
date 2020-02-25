@@ -16,6 +16,7 @@ header, section, footer{
 }
 
 .titulo_intro{
+    max-width: 700px;
     margin: auto;
     font-family: 'Merriweather Sans', 'sans-serif';
     font-style: normal;
