@@ -246,30 +246,30 @@ header .container{
     align-items: center;
 }
 
-.lista_noticias li article{
+.lista_noticias article{
     height: 240px;
 }
 
-.lista_noticias .primeiraColuna li:nth-child(1) article{
+.lista_noticias .primeiraColuna article:nth-child(1){
     background: url("../img/home/noticias/aniversario_tratada_mobile.jpg") center no-repeat;
     background-size: cover;
 }
 
-.lista_noticias .primeiraColuna li:nth-child(2){
+.lista_noticias .primeiraColuna article:nth-child(2){
     display: none;
 }
 
-.lista_noticias .primeiraColuna li:nth-child(2) article{
+.lista_noticias .primeiraColuna article:nth-child(2){
     background: url("../img/home/noticias/drink_tratada.jpg") center no-repeat;
     background-size: cover;
 }
 
-.lista_noticias .primeiraColuna li:nth-child(3) article{
+.lista_noticias .primeiraColuna article:nth-child(3){
     background: url("../img/home/noticias/casamento_tratada_mobile.jpg") center no-repeat;
     background-size: cover;
 }
 
-.lista_noticias .segundaColuna, .lista_noticias .primeiraColuna li:nth-child(2){
+.lista_noticias .segundaColuna, .lista_noticias .primeiraColuna article:nth-child(2){
     display: none;
 }
 
@@ -278,7 +278,7 @@ header .container{
     background-size: cover;
 }
 
-.noticias .lista_noticias li a{
+.noticias .lista_noticias article a{
     width: 100%;
     height: 100%;
 }
@@ -298,10 +298,15 @@ header .container{
     max-width: 100vw;
     min-height: 852px;
     background: #DEE8E7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .dicas .card_dica{
     height: 528px;
+    margin-top: 30px;
     padding: 30px;
     color: #fff;
     background: url("../img/home/dicas/bg_dica_mobile.jpg") center no-repeat;

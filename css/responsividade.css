@@ -103,10 +103,13 @@
     }
     
     
+    .titulo_intro{
+        letter-spacing: 0.08em;
+    }
+
     .titulo{
         font-size: 36px;
         line-height: 48px;
-        letter-spacing: 0.08;
     }
     
     .sub_titulo{
@@ -224,7 +227,7 @@
     
     /* Noticias */
     
-    .lista_noticias .segundaColuna, .lista_noticias .primeiraColuna li:nth-child(2){
+    .lista_noticias .segundaColuna, .lista_noticias .primeiraColuna article:nth-child(2){
         display: inline-block;
     }
     
