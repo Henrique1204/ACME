@@ -5,7 +5,7 @@
 }
 
 .container{
-	width: 760px;
+	width: 300px;
     margin: 0 auto;
 	padding: 0;
 	display: flex;
@@ -45,6 +45,37 @@
 
 	.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12{
 		width: 600px;
-		margin: 30px auto;
+		margin: 15px auto;
+	}
+}
+
+/* Tamanho Desktop */
+@media 	only screen and (min-width: 1170px){
+
+	.container{
+		width: 1170px;
+		justify-content: space-between;
+		padding: 0;
+	}
+	
+
+	.grid-1 {width: 70px;}
+	.grid-2 {width: 170px;}
+	.grid-3 {width: 270px;}
+	.grid-4 {width: 370px;}
+	.grid-5 {width: 470px;}
+	.grid-6 {width: 570px;}
+	.grid-7 {width: 670px;}
+	.grid-8 {width: 770px;}
+	.grid-9 {width: 870px;}
+	.grid-10 {width: 970px;}
+	.grid-11 {width: 1070px;}
+	.grid-12 {width: 1170px;}
+
+	.alinharColuna{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-start;
 	}
 }

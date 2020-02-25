@@ -1,23 +1,38 @@
 /* Tamanho de Tablet */
 @media  only screen and (min-width: 760px){
-
-    /* Posts Recentes */
-
-    .posts_recentes{
-        height: 600px;
+    
+    /* Apresentação */
+    
+    .apresentacao .container{
+        flex-direction: column;
     }
-
-    .posts_recentes .container{
+    
+    /* Posts Recentes */
+    
+    .posts_recentes{
+        min-height: 600px;
+    }
+    
+    .posts_recentes>.container{
+        flex-direction: column;
+    }
+    
+    
+    .posts_recentes .alinharColuna .container{
         justify-content: space-around;
     }
-
+    
     .lista_posts .grid-3{
-		width: 300px;
-		margin: 30px auto;
+        width: 300px;
+        margin: 30px auto;
     }
     
     /* Noticia */
 
+    .noticias>.container{
+        flex-direction: column;
+    }
+    
     .lista_noticias .primeiraColuna li:nth-child(1) article{
         background: url("../img/home/noticias/aniversario_tratada.jpg") center no-repeat;
         background-size: cover;
@@ -27,20 +42,196 @@
         background: url("../img/home/noticias/casamento_tratada.jpg") center no-repeat;
         background-size: cover;
     }
-
+    
     /* Dicas */
+    
+    .dicas{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .dicas>.container{
+        flex-direction: column;
+    }
 
     .dicas .grid-4{
         width: 300px;
     }
-
+    
     .dicas ul .card_dica:nth-child(2){
         display: inline-block;
     }
-
+    
     /* Footer */
-
+    
     footer> .container{
         flex-direction: column;
+    }
+}
+
+/* Tamanho Desktop */
+
+@media  only screen and (min-width: 1170px){
+    
+    /* Gerais */
+
+    .intro_home, section{
+        padding: 90px 0;
+    }
+
+
+    .titulo{
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: 0.08;
+    }
+    
+    .sub_titulo{
+        font-size: 36px;
+        line-height: 48px;
+    }
+    
+    .sub_titulo:before{
+        margin-bottom: 5px;
+    }
+    
+    .texto_titulo{
+        width: auto;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: left;
+    }
+    
+    .posts_recentes .nav_slide, .noticias .nav_slide{
+        display: none;
+    }
+    
+    /* Cabeçoalho */
+    
+    header .container{
+        width: 1170px;
+        padding: 0 30px ;
+    }
+    
+    .menu_sanduiche{
+        display: none;
+    }
+    
+    .menu_links{
+        display: inline-block;
+    }
+    
+    .menu_links ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .menu_links ul li{
+        margin: 0 7.5px;
+    }
+    
+    .menu_links a{
+        padding: 5px;
+        font-family: 'Open Sans', 'sans-serif';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        line-height: 24px;
+        color: #fff;
+    }
+    
+    .menu_links a:focus, .menu_links a:hover{
+        transition: 1s;
+        color: #FF3300;
+    }
+    
+    /* Intro home */
+    
+    .intro_home{
+        width: 100vw;
+        height: 312px;
+        padding: 90px;
+        background: url('../img/home/intro/bg_intro_tratada.jpg') center no-repeat;
+        background-size: cover;
+    }
+    
+    .titulo_intro{
+        width: 770px;
+        font-size: 36px;
+        line-height: 48px;
+    }
+    
+    /* Apresentação */
+    
+    .apresentacao{
+        min-height: 600px;
+    }
+    
+    .apresentacao .container{
+        flex-direction: row;
+    }
+    
+    .apresentacao .alinharColuna, .apresentacao, .dicas{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    /* Posts Recentes */
+    
+    .posts_recentes{
+        min-height: 878px;
+    }
+    
+    .posts_recentes .lista_posts li{
+        display: inline-block;
+    }
+    
+    .lista_posts .grid-3{
+        width: 270px;
+        height: 270px;
+    }
+    
+    /* Noticias */
+    
+    .lista_noticias .segundaColuna, .lista_noticias .primeiraColuna li:nth-child(2){
+        display: inline-block;
+    }
+    
+    .lista_noticias .segundaColuna article{
+        height: 510px;
+    }
+    
+    /* Dicas */
+
+    .dicas .card_dica{
+        margin-top: 60px;
+        background: url("../img/home/dicas/bg_dica.jpg") center no-repeat;
+        background-size: cover;
+    }
+    
+    .dicas ul .card_dica:nth-child(3){
+        display: inline-block;
+    }
+
+    .dicas .grid-4{
+        width: 370px;
+        height: 445px;
+    }
+
+    /* Rodapé */
+
+    footer{
+        padding: 0;
+        height: 185px;
+    }
+
+    footer .container{
+        flex-direction: row;
     }
 }
