@@ -629,6 +629,10 @@
     
     /* Formulário personalizado */
     
+    .form_personalizado{
+        height: 1200px;
+    }
+
     .form_personalizado>.container{
         flex-direction: row;
         align-items: flex-start;
