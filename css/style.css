@@ -518,9 +518,9 @@ header, section, footer{
     display: inline-block;
 }
 
-.btn:focus, .btn:hover, .card_servico:focus a, .card_servico a:hover{
+.btn:focus, .btn:hover, .card_servico a:focus, .card_servico a:hover{
     transition: 0.2s;
-    background-color: #FF5100;
+    background-color: #FF5100!important;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
 }
 
@@ -1397,9 +1397,9 @@ footer p{
     background-color: #26C79C;
 }
 
-.personalizacao .btn:focus, .btn:hover{
+.personalizacao .btn:focus, .personalizacao .btn:hover{
     transition: 0.2s;
-    background-color: #33FFCC;;
+    background-color: #33FFCC!important;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
 }
 
