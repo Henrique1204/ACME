@@ -57,22 +57,22 @@
         flex-direction: column;
     }
     
-    /* Posts Recentes */
+    /* Ultimos eventos */
     
-    .posts_recentes{
+    .ultimos_eventos{
         min-height: 600px;
     }
     
-    .posts_recentes>.container{
+    .ultimos_eventos>.container{
         flex-direction: column;
     }
     
     
-    .posts_recentes .alinharColuna .container{
+    .ultimos_eventos .alinharColuna .container{
         justify-content: space-around;
     }
     
-    .lista_posts .grid-3{
+    .lista_ultimos_eventos .grid-3{
         width: 300px;
         margin: 30px auto;
     }
@@ -84,12 +84,12 @@
     }
     
     .lista_noticias .primeiraColuna article:nth-child(1){
-        background: url("../img/home/noticias/aniversario_tratada.jpg") center no-repeat;
+        background: url("img/home/noticias/aniversario_tratada.jpg") center no-repeat;
         background-size: cover;
     }
     
     .lista_noticias .primeiraColuna article:nth-child(3){
-        background: url("../img/home/noticias/casamento_tratada.jpg") center no-repeat;
+        background: url("img/home/noticias/casamento_tratada.jpg") center no-repeat;
         background-size: cover;
     }
     
@@ -341,7 +341,7 @@
         text-align: left;
     }
     
-    .posts_recentes .nav_slide, .noticias .nav_slide, .loja .nav_slide{
+    .ultimos_eventos .nav_slide, .noticias .nav_slide, .loja .nav_slide{
         display: none;
     }
     
@@ -377,17 +377,17 @@
         align-items: center;
     }
     
-    /* Posts Recentes */
+    /* Ultimos eventos */
     
-    .posts_recentes{
+    .ultimos_eventos{
         min-height: 878px;
     }
     
-    .posts_recentes .lista_posts li{
+    .ultimos_eventos .lista_ultimos_eventos li{
         display: inline-block;
     }
     
-    .lista_posts .grid-3{
+    .lista_ultimos_eventos .grid-3{
         width: 270px;
         height: 270px;
     }

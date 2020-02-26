@@ -633,34 +633,34 @@ header .container{
     background: rgba(173, 255, 250, 0.5);
 }
 
-/* Post Recentes */
+/* Ultimos eventos */
 
-.posts_recentes{
+.ultimos_eventos{
     max-width: 100vw;
     min-height: 825px;
     background-color: #DEE8E7;
 }
 
-.posts_recentes .lista_posts li article{
+.ultimos_eventos .lista_ultimos_eventos li article{
     height: 300px;
-    background: url("img/home/posts/tumb_tratada.jpg") center no-repeat;
+    background: url("img/home/ultimos_eventos/tumb_tratada.jpg") center no-repeat;
     background-size: cover;
 }
 
-.posts_recentes .lista_posts li{
+.ultimos_eventos .lista_ultimos_eventos li{
     display: none;
 }
 
-.posts_recentes .lista_posts li:nth-child(1),.posts_recentes .lista_posts li:nth-child(2){
+.ultimos_eventos .lista_ultimos_eventos li:nth-child(1),.ultimos_eventos .lista_ultimos_eventos li:nth-child(2){
     display: flex;
 }
 
-.posts_recentes .lista_posts li a{
+.ultimos_eventos .lista_ultimos_eventos li a{
     width: 100%;
     height: 100%;
 }
 
-.posts_recentes .titulo_post{
+.ultimos_eventos .titulo_ultimo_evento{
     width: 200px;
     font-weight: bold;
     font-size: 16px;
@@ -1541,22 +1541,22 @@ footer p{
         flex-direction: column;
     }
     
-    /* Posts Recentes */
+    /* Ultimos eventos */
     
-    .posts_recentes{
+    .ultimos_eventos{
         min-height: 600px;
     }
     
-    .posts_recentes>.container{
+    .ultimos_eventos>.container{
         flex-direction: column;
     }
     
     
-    .posts_recentes .alinharColuna .container{
+    .ultimos_eventos .alinharColuna .container{
         justify-content: space-around;
     }
     
-    .lista_posts .grid-3{
+    .lista_ultimos_eventos .grid-3{
         width: 300px;
         margin: 30px auto;
     }
@@ -1825,7 +1825,7 @@ footer p{
         text-align: left;
     }
     
-    .posts_recentes .nav_slide, .noticias .nav_slide, .loja .nav_slide{
+    .ultimos_eventos .nav_slide, .noticias .nav_slide, .loja .nav_slide{
         display: none;
     }
     
@@ -1861,17 +1861,17 @@ footer p{
         align-items: center;
     }
     
-    /* Posts Recentes */
+    /* Ultimos eventos */
     
-    .posts_recentes{
+    .ultimos_eventos{
         min-height: 878px;
     }
     
-    .posts_recentes .lista_posts li{
+    .ultimos_eventos .lista_ultimos_eventos li{
         display: inline-block;
     }
     
-    .lista_posts .grid-3{
+    .lista_ultimos_eventos .grid-3{
         width: 270px;
         height: 270px;
     }
