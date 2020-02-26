@@ -278,7 +278,7 @@
     background-color: #26C79C;
 }
 
-.personalizacao .btn:focus, .btn:hover{
+.personalizacao .btn:focus, .personalizacao .btn:hover{
     transition: 0.2s;
     background-color: #33FFCC;;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.25);
