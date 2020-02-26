@@ -83,12 +83,12 @@
         flex-direction: column;
     }
     
-    .lista_noticias .primeiraColuna li:nth-child(1) article{
+    .lista_noticias .primeiraColuna article:nth-child(1){
         background: url("../img/home/noticias/aniversario_tratada.jpg") center no-repeat;
         background-size: cover;
     }
     
-    .lista_noticias .primeiraColuna li:nth-child(3) article{
+    .lista_noticias .primeiraColuna article:nth-child(3){
         background: url("../img/home/noticias/casamento_tratada.jpg") center no-repeat;
         background-size: cover;
     }
