@@ -1,7 +1,6 @@
 /* Tamanho de Tablet */
 @media  only screen and (min-width: 791px){
     
-    /* Pagina Home */
     /* Cabeçalho*/
     
     .menu_sanduiche{
@@ -40,6 +39,16 @@
     
     .menu_links .link_ativo{
         color: #FF3300;
+    }
+    
+    /* Pagina Home */
+    /* Intro home */
+    
+    .intro_home{
+        height: 312px;
+        padding: 90px;
+        background: url('../img/home/intro/bg_intro_tratada.jpg') center no-repeat;
+        background-size: cover;
     }
     
     /* Apresentação */
@@ -106,6 +115,15 @@
     }
     
     /* Pagina Eventos */
+    
+    /* Intro Eventos */
+    
+    .intro_eventos{
+        height: 312px;
+        background: url("../img/eventos/intro/bg_intro_tratada.jpg") center no-repeat;
+        background-size: cover;
+    }
+    
     /* Listas de eventos */
     
     .casamentos .container, .aniversarios .container, .outras_festas .container{
@@ -126,7 +144,22 @@
         flex-direction: column;
     }
     
+    /* Contrate */
+    
+    .contrate{
+        height: 410px;
+        background: url("../img/eventos/contrate/bg_contrate_tratada.jpg") center no-repeat;
+        background-size: cover;
+    }
+    
     /* Pagina Local */
+    /* Introdução local*/
+    
+    .intro_locais{
+        height: 312px;
+        background: url("../img/locais/intro/bg_intro_tratada.jpg") center no-repeat;
+        background-size: cover;
+    }
     /* Sessão exbição */
     
     .locais{
@@ -142,8 +175,32 @@
         width: 600px;
         height: 400px;
     }
+
+    /* Pagina servicos */
+    /* contrate */
+
+        /* Contrate */
+    
+        .contrate_servico{
+            height: 410px;
+            background: url("../img/servicos/contrate/bg_contrate_tratda.jpg") center no-repeat;
+            background-size: cover;
+        }
+
+        .contrate_servico .container{
+            justify-content: center;
+        }
     
     /* Pagina Contato */
+    /* Introdução contato */
+    
+    .intro_contato{
+        height: 312px;
+        margin-top: 100px;
+        background: url("../img/contato/intro/bg_intro_tratada.jpg") center no-repeat;
+        background-size: cover;
+    }
+    
     /* Contato */
     .contato .container{
         flex-direction: column;
@@ -192,7 +249,7 @@
         text-align: left;
     }
     
-    .posts_recentes .nav_slide, .noticias .nav_slide{
+    .posts_recentes .nav_slide, .noticias .nav_slide, .loja .nav_slide{
         display: none;
     }
     
@@ -204,15 +261,6 @@
     }
     
     /* Pagina Home */
-    /* Intro home */
-    
-    .intro_home{
-        width: 100vw;
-        height: 312px;
-        padding: 90px;
-        background: url('../img/home/intro/bg_intro_tratada.jpg') center no-repeat;
-        background-size: cover;
-    }
     
     .titulo_intro{
         width: 770px;
@@ -281,18 +329,6 @@
     
     /* Pagina eventos */
     
-    /* Intro Eventos */
-    
-    .intro_eventos{
-        height: 312px;
-        background: url("../img/eventos/intro/bg_intro_tratada.jpg") center no-repeat;
-        background-size: cover;
-    }
-    
-    .intro_eventos .titulo_intro{
-        width: 640px;
-    }
-    
     /* Lista de eventos*/
     
     .casamentos .grid-6, .aniversarios .grid-6, .outras_festas .grid-6{
@@ -317,15 +353,9 @@
         background: url("../img/eventos/planos/bg_plano.jpg") center no-repeat;
         background-size: cover;
     }
-    
-    /* Contrate */
-    
-    .contrate{
-        height: 410px;
-        background: url("../img/eventos/contrate/bg_contrate_tratada.jpg") center no-repeat;
-        background-size: cover;
-    }
-    
+
+    /* contrate */
+
     .contrate .container div:nth-child(1){
         display: flex;
         align-items: center;
@@ -348,12 +378,6 @@
     
     /* Pagina local */
     /* Sessão exbição */
-    
-    .intro_locais{
-        height: 312px;
-        background: url("../img/locais/intro/bg_intro_tratada.jpg") center no-repeat;
-        background-size: cover;
-    }
     
     .locais{
         min-height: 1040px;
@@ -396,6 +420,29 @@
     .locais .container .btn, .nav_slide{
         margin: 30px auto 0;
     }
+
+    /* Pagina servicos*/
+    /* Contrate */
+
+    .contrate_servico .container div:nth-child(1){
+        display: flex;
+        align-items: center;
+        color: #fff;
+    }
+    
+    .contrate_servico .container div:nth-child(1) p{
+        width: 700px;
+        margin: 30px auto;
+        font-size: 20px;
+        text-align: center;
+        line-height: 32px;
+    }
+    
+    .contrate_servico .container div:nth-child(2){
+        height: auto;
+        width: 370px;
+        flex-direction: row;
+    }
     
     /* Pagina Contato */
     /* Contato */
@@ -428,11 +475,11 @@
         background-color: currentColor;
         display: block;
     }
-
+    
     .contato .contato_dados li{
         margin-left: 30px;
     }
-
+    
     .contato .contato_sociais{
         width: 270px;
         display: flex;
