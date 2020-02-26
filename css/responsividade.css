@@ -232,6 +232,13 @@
         padding: 90px 0;
     }
     
+    /* Titulos */
+    
+    .form_aluguel .titulo:after, .form_personalizado .titulo:after{
+        width: 450px;
+        height: 4px;
+    }
+    
     /* Dados compra */
     
     .dados_compra{
@@ -265,7 +272,7 @@
     
     /* Dados cartão */
     
-    .dados_cartão{
+    .dados_cartao{
         flex-direction: column;
     }
     
@@ -574,12 +581,12 @@
     .opcoes_plano{
         align-items: center;
     }
-
-    .dados_compra, .dados_cartão{
+    
+    .dados_compra, .dados_cartao{
         width: 1170px;
         flex-direction: row;
     }
-
+    
     .dados_compra{
         align-items: flex-start;
     }
@@ -592,7 +599,7 @@
     .dados_local{
         width: 700px;
     }
-
+    
     .opcoes_local{
         width: 700px;
         height: 363px;
@@ -606,18 +613,67 @@
         width: 640px;
         height: 200px;
     }
-
+    
     .local_alternativo .campo{
         margin-top: 15px;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
-
+    
     .local_alternativo .campo input{
         width: 270px;
         height: 40px;
         margin: 0;
+    }
+    
+    /* Formulário personalizado */
+    
+    .form_personalizado>.container{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    /* Dados para contaro */
+
+    .dados_pra_contato .texto_titulo{
+        width: 400px;
+    }
+
+    .dados_pra_contato, .personalizacao{
+        margin: 30px 0 0;
+    }
+    
+    /* Personalização */
+    
+    .personalizacao{
+        width: 570px;
+        height: 650px;
+    }
+    
+    .personalizacao .sub_titulo{
+        font-size: 36px;
+        line-height: 48px;
+    }
+    
+    .painel{
+        height: 330px;
+        padding: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .painel h3{
+        text-align: left;
+    }
+    
+    .painel .colunas_ser{
+        padding: 0 60px;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
     }
     
     /* Pagina Contato */

@@ -125,8 +125,8 @@
                 <div class="dados_local">
                     <div class="opcoes_local  alinharColuna">
                         <div class="campo grid-3">
-                            <label for="est" class="texto_form_escuro">Escolha o local</label>
-                            <select name="est" id="est">
+                            <label for="lcl" class="texto_form_escuro">Escolha o local</label>
+                            <select name="lcl" id="lcl">
                                 <option value="default" selected>Selecione o local</option>
                                 <option value="l1">Local 1</option>
                                 <option value="l2">Local 2</option>
@@ -136,8 +136,8 @@
                             </select>
                         </div>
                         <div class="campo grid-2">
-                            <label for="est" class="texto_form_escuro">Data</label>
-                            <select name="est" id="est">
+                            <label for="dat" class="texto_form_escuro">Data</label>
+                            <select name="dat" id="dat">
                                 <option value="default" selected>Selecione</option>
                                 <option value="d1">25/02/2020</option>
                                 <option value="d2">25/02/2020</option>
@@ -147,8 +147,8 @@
                             </select>
                         </div>
                         <div class="campo grid-2">
-                            <label for="est" class="texto_form_escuro">Tempo alugado</label>
-                            <select name="est" id="est">
+                            <label for="temp" class="texto_form_escuro">Tempo alugado</label>
+                            <select name="temp" id="temp">
                                 <option value="default" selected>Selecione</option>
                                 <option value="t1">1</option>
                                 <option value="t2">2</option>
@@ -207,7 +207,7 @@
                 </div>
                 <div class="campo grid-3">
                     <label for="num_crt">Numero do cartão*</label>
-                    <input type="text" name="num_crt" id="num_crtp" placeholder="xxxx xxxx xxxx xxx" required>
+                    <input type="text" name="num_crt" id="num_crt" placeholder="xxxx xxxx xxxx xxx" required>
                 </div>
                 <div class="campo grid-3">
                     <label for="cod_seg">Código de segurança*</label>
@@ -225,6 +225,83 @@
                             <option value="x6">6</option>
                         </select>
                     </div>
+                </div>
+                <div class="grid-12 centro">
+                    <a href="#" class="chamada">Clique aqui para ver as condições de aluguel</a>
+                    <button class="btn">Finalizar alguuel</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <section class="form_personalizado">
+        <form class="container alinharColuna">
+            <h2 class="titulo texto_form_escuro grid-12">Formulário personalizado</h2>
+            <div class="dados_pra_contato alinharColuna grid-6">
+                <h2 class="sub_titulo">Dados para contato</h2>
+                <p class="texto_titulo">Informe seus dados para entrarmos em contato após o primeiro contato</p>
+                <div class="campo grid-6">
+                    <label for="nome_per">Nome*</label>
+                    <input type="text" name="nome_per" id="nome_per" placeholder="Nome completo" required>
+                </div>
+                <div class="campo grid-6">
+                    <label for="email_per">E-mail*</label>
+                    <input type="text" name="email_per" id="email_per" placeholder="exemplo@gmail.com" required>
+                </div>
+                <div class="campo grid-6">
+                    <label for="tel_per">Telefone</label>
+                    <input type="text" name="tel_per" id="tel_per" placeholder="11 9999-9999" required>
+                </div>
+                <div class="campo grid-6">
+                    <label for="outro">Outro meio de contato</label>
+                    <input type="text" name="outro" id="outro" required>
+                </div>
+                <div class="campo grid-6">
+                    <label for="sus">Sugestão*</label>
+                    <textarea name="sus" id="sus" cols="30" rows="10" required></textarea>
+                </div>
+            </div>
+            <div class="personalizacao alinharColuna">
+                <h2 class="sub_titulo">Painel de personalização</h2>
+                <p class="texto_titulo">Personalize sua festa com as opçoes abaixo: </p>
+                <div class="painel grid-6 alinharColuna">
+                    <div class="campo">
+                        <label for="tem_fes">Tema da fest</label>
+                        <input type="text" name="tem_fes" id="tem_fes">
+                    </div>
+                    <div class="campo">
+                        <label for="qnt_conv">Convidados</label>
+                        <input type="number" name="qnt_conv" id="qnt_conv">
+                    </div>
+                    <div class="campo">
+                        <label for="dat_per">Data</label>
+                        <select name="dat_per" id="dat_per">
+                            <option value="default">Selecione</option>
+                            <option value="01">26/02/2020</option>
+                            <option value="02">26/02/2020</option>
+                            <option value="03">26/02/2020</option>
+                            <option value="04">26/02/2020</option>
+                            <option value="05">26/02/2020</option>
+                        </select>
+                    </div>
+                    <h3 class="grid-6">Serviços</h3>
+                    <div class="colunas_ser grid-6">
+                        <div class="coluna_ser alinharColuna">
+                            <label for="op1"><input type="checkbox" name="servico_per" id="op1"> Buffet</label>
+                            <label for="op2"><input type="checkbox" name="servico_per" id="op2"> Garçom</label>
+                            <label for="op3"><input type="checkbox" name="servico_per" id="op3"> Banda</label>
+                            <label for="op4"><input type="checkbox" name="servico_per" id="op4"> Dj</label>
+                        </div>
+                        <div class="coluna_ser alinharColuna">
+                            <label for="op5"><input type="checkbox" name="servico_per" id="op5"> Atividades planejadas</label>
+                            <label for="op6"><input type="checkbox" name="servico_per" id="op6"> Mestre de cerimõnias</label>
+                            <label for="op7"><input type="checkbox" name="servico_per" id="op7"> Gestão de equipe</label>
+                            <label for="op8"><input type="checkbox" name="servico_per" id="op8"> Brinquedos</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-6 centro">
+                    <p class="chamada">Enviaremos um e-mail para mais detalhes sobre a festa e orçamento</p>
+                    <button class="btn">Enviar</button>
                 </div>
             </div>
         </form>
