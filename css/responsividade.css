@@ -224,6 +224,58 @@
         justify-content: center;
     }
     
+    /* Página Orçamento */
+    /* intro orçamento */
+    
+    .intro_orcamento{
+        height: 312px;
+        padding: 90px 0;
+    }
+    
+    /* Dados compra */
+    
+    .dados_compra{
+        flex-direction: column;
+    }
+    
+    .opcoes_plano{
+        width: 400px;
+    }
+    
+    .opcoes_plano>div:nth-child(2){
+        width: 340px;
+    }
+    
+    .opcoes_plano label{
+        width: 170px;
+    }
+    
+    .opcoes_plano>div:nth-child(2) label:nth-child(1), .opcoes_pagamento label:nth-child(1){
+        border-radius: 4px 0 0 4px;
+    }
+    
+    .opcoes_plano>div:nth-child(2) label:nth-child(2), .opcoes_pagamento label:nth-child(2){
+        border-radius: 0 4px 4px 0;
+    }
+    
+    .opcoes_local img{
+        width: 600px;
+        height: 400px;
+    }
+    
+    /* Dados cartão */
+    
+    .dados_cartão{
+        flex-direction: column;
+    }
+    
+    .opcoes_pagamento{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
     /* Pagina Contato */
     /* Introdução contato */
     
@@ -506,6 +558,66 @@
         height: auto;
         width: 370px;
         flex-direction: row;
+    }
+    
+    /* Página orçamento */
+    /* Formulário aluguel */
+    
+    .form_aluguel .sub_titulo{
+        text-align: left;
+    }
+    
+    .campo, .campo_duplo{
+        margin: 0;
+    }
+    
+    .opcoes_plano{
+        align-items: center;
+    }
+
+    .dados_compra, .dados_cartão{
+        width: 1170px;
+        flex-direction: row;
+    }
+
+    .dados_compra{
+        align-items: flex-start;
+    }
+    
+    .opcoes_pagamento{
+        justify-content: flex-start;
+        margin-bottom: 30px;
+    }
+    
+    .dados_local{
+        width: 700px;
+    }
+
+    .opcoes_local{
+        width: 700px;
+        height: 363px;
+        padding: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .opcoes_local img{
+        width: 640px;
+        height: 200px;
+    }
+
+    .local_alternativo .campo{
+        margin-top: 15px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .local_alternativo .campo input{
+        width: 270px;
+        height: 40px;
+        margin: 0;
     }
     
     /* Pagina Contato */

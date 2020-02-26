@@ -103,7 +103,7 @@
                 </div>
             </div>
             <div class="dados_compra container">
-                <h3 class="sub_titulo">Dados de compra</h3>
+                <h3 class="sub_titulo grid-12">Dados de compra</h3>
                 <div class="opcoes_plano alinharColuna">
                     <h3 class="texto_form_escuro">Escolha o plano</h3>
                     <div>
@@ -122,52 +122,54 @@
                         <p>R$ 1.000,00</p>
                     </div>
                 </div>
-                <div class="opcoes_local alinharColuna">
-                    <div class="campo grid-3">
-                        <label for="est" class="texto_form_escuro">Escolha o local</label>
-                        <select name="est" id="est">
-                            <option value="default" selected>Selecione o local</option>
-                            <option value="l1">Local 1</option>
-                            <option value="l2">Local 2</option>
-                            <option value="l3">Local 3</option>
-                            <option value="l4">Local 4</option>
-                            <option value="l5">Local 5</option>
-                        </select>
+                <div class="dados_local">
+                    <div class="opcoes_local  alinharColuna">
+                        <div class="campo grid-3">
+                            <label for="est" class="texto_form_escuro">Escolha o local</label>
+                            <select name="est" id="est">
+                                <option value="default" selected>Selecione o local</option>
+                                <option value="l1">Local 1</option>
+                                <option value="l2">Local 2</option>
+                                <option value="l3">Local 3</option>
+                                <option value="l4">Local 4</option>
+                                <option value="l5">Local 5</option>
+                            </select>
+                        </div>
+                        <div class="campo grid-2">
+                            <label for="est" class="texto_form_escuro">Data</label>
+                            <select name="est" id="est">
+                                <option value="default" selected>Selecione</option>
+                                <option value="d1">25/02/2020</option>
+                                <option value="d2">25/02/2020</option>
+                                <option value="d3">25/02/2020</option>
+                                <option value="d4">25/02/2020</option>
+                                <option value="d5">25/02/2020</option>
+                            </select>
+                        </div>
+                        <div class="campo grid-2">
+                            <label for="est" class="texto_form_escuro">Tempo alugado</label>
+                            <select name="est" id="est">
+                                <option value="default" selected>Selecione</option>
+                                <option value="t1">1</option>
+                                <option value="t2">2</option>
+                                <option value="t3">3</option>
+                                <option value="t4">4</option>
+                                <option value="t5">5</option>
+                            </select>
+                        </div>
+                        <img src="img/orcamento/local/local_grande_tratada_mobile.jpg" alt="Foto de um de nossos espaços com churrasqueira">
                     </div>
-                    <div class="campo grid-2">
-                        <label for="est" class="texto_form_escuro">Data</label>
-                        <select name="est" id="est">
-                            <option value="default" selected>Selecione a data</option>
-                            <option value="d1">25/02/2020</option>
-                            <option value="d2">25/02/2020</option>
-                            <option value="d3">25/02/2020</option>
-                            <option value="d4">25/02/2020</option>
-                            <option value="d5">25/02/2020</option>
-                        </select>
-                    </div>
-                    <div class="campo grid-2">
-                        <label for="est" class="texto_form_escuro">Tempo alugado</label>
-                        <select name="est" id="est">
-                            <option value="default" selected>Selecione a quantidade de dias</option>
-                            <option value="t1">1</option>
-                            <option value="t2">2</option>
-                            <option value="t3">3</option>
-                            <option value="t4">4</option>
-                            <option value="t5">5</option>
-                        </select>
-                    </div>
-                    <img src="img/orcamento/local/local_grande_tratada_mobile.jpg" alt="Foto de um de nossos espaços com churrasqueira">
-                </div>
-                <div class="local_alternativo">
-                    <div class="campo grid-6">
-                        <label for="lcl_alt">Se já possui um local informe o endereço ao lado:</label>
-                        <input type="text" name="lcl_alt" id="lcl_alt" placeholder="Endereço">
+                    <div class="local_alternativo">
+                        <div class="campo  grid-7">
+                            <label for="lcl_alt">Se já possui um local informe o endereço ao lado:</label>
+                            <input type="text" name="lcl_alt" id="lcl_alt" placeholder="Endereço">
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="dados_cartão container">
-                <h3 class="sub_titulo">Dados pagamento</h3>
-                <div class="opcoes_pagamento">
+                <h3 class="sub_titulo grid-12">Dados pagamento</h3>
+                <div class="opcoes_pagamento grid-12">
                     <label for="crt" class="opcao_ativa"><input type="radio" name="pag" id="crt" value="crt" checked> Cartão de crédito</label>
                     <label for="bol"><input type="radio" name="pag" id="bol" value="bol"> Boleto bancário</label>
                 </div>
@@ -175,8 +177,8 @@
                     <label for="nome_cartao">Nome no cartão*</label>
                     <input type="text" name="nome_cartao" id="nome_cartao" placeholder="Nome igual ao impresso no cartão" required>
                 </div>
-                <div class="campo grid-3">
-                    <label for="data_exp">Data de espiração*</label>
+                <div class="campo grid-3 centro">
+                    <label for="data_exp">Data de expiração*</label>
                     <div class="campo_duplo grid-3">
                         <select name="mes" id="data_exp">
                             <option value="default" selected>Mês</option>
@@ -211,16 +213,18 @@
                     <label for="cod_seg">Código de segurança*</label>
                     <input type="text" name="cod_seg" id="cod_seg" placeholder="xxx" required>
                 </div>
-                <div class="campo grid-3">
-                    <label for="num_par">Numero de parcelas*</label>
-                    <select name="num_par" id="num_par">
-                        <option value="default" selected>Selecione a quantidade de parcela</option>
-                        <option value="x2">2</option>
-                        <option value="x3">3</option>
-                        <option value="x4">4</option>
-                        <option value="x5">5</option>
-                        <option value="x6">6</option>
-                    </select>
+                <div class="grid-12">
+                    <div class="campo grid-3">
+                        <label for="num_par">Numero de parcelas*</label>
+                        <select name="num_par" id="num_par">
+                            <option value="default" selected>Selecione a quantidade de parcela</option>
+                            <option value="x2">2</option>
+                            <option value="x3">3</option>
+                            <option value="x4">4</option>
+                            <option value="x5">5</option>
+                            <option value="x6">6</option>
+                        </select>
+                    </div>
                 </div>
             </div>
         </form>
