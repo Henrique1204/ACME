@@ -129,6 +129,10 @@ header .container{
 .menu_sanduiche{
     width: 40px;
     height: 40px;
+    font-family: cursive;
+    font-size: 24pt;
+    font-weight: 900;
+    color: #B81004;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -143,7 +147,47 @@ header .container{
 }
 
 .menu_links{
-    display: none;
+    width: 100%;
+    background-color: #26C79C;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.5), 0px 4px 4px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 100%;
+    opacity: 0;
+    transition: 1s;
+}
+
+.menu_links ul{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_links ul li{
+    margin: 10px 0;
+}
+
+.menu_links a{
+    padding: 5px;
+    font-family: 'Open Sans', 'sans-serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+}
+
+.menu_links a:focus, .menu_links a:hover{
+    transition: 1s;
+    color: #FF3300;
+}
+
+.menu_links .link_ativo{
+    color: #FF3300;
 }
 
 /* HOME */
